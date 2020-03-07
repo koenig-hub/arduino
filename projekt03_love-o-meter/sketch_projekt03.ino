@@ -3,8 +3,8 @@
 
   Love-o-meter
 
-  modified 22. Februar 2020
-  by Elias König
+  erstellt am 22. Februar 2020
+  von E. König
 
 */
 
@@ -13,19 +13,19 @@ const int sensorPin = A0;
 // Ausgangstemperatur (je tiefer der Wert umso schneller leuchten die LEDs)
 const float ausgangsTemperatur = 24.0;
 
-// setup wird standarmässig nur einmal beim Starten des Programms aufgerufen
+// setup wird standardmässig nur einmal beim Starten des Programms aufgerufen
 void setup() {
   Serial.println("Setup gestartet");
   Serial.begin(9600);
   // Pin 2,3 und 4 auf Ausgang (OUTPUT) und LOW setzen.
   for(int pinNummer = 2; pinNummer < 5; pinNummer++) {
     // Setze pin als Ausgang
-	pinMode(pinNummer,OUTPUT);
+    pinMode(pinNummer,OUTPUT);
     // pin auf LOW setzen. LOW bedeuted LED ist ausgeschalten
-	digitalWrite(pinNummer,LOW);
+    digitalWrite(pinNummer,LOW);
     Serial.print("Pin Nummer ");
     Serial.println(pinNummer);
-	Serial.println(" als Ausgang gesetzt.");
+    Serial.println(" als Ausgang gesetzt.");
   }
   Serial.println("Setup beendet");
 }
