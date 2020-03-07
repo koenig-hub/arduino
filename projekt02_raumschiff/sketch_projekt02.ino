@@ -3,13 +3,15 @@
 
   Raumschiff Steuerzentrale
 
-  modified 11. August 2019
-  by Elias König
+  erstellt am 11. August 2019
+  von E. König
 
 */
 
+// Variable um den Zustand des Schalters zu speichern
 int schalterZustand = 0;
 
+// setup wird standardmässig nur einmal beim Starten des Programms aufgerufen
 void setup() {
   // Pin aud Eingang oder Ausgang setzen
   pinMode(3,OUTPUT); // Pin 3 Ausgang (grüne LED) 
@@ -18,6 +20,7 @@ void setup() {
   pinMode(2,INPUT); // Pin 2 Eingang (Taster)
 }
 
+// loop wird nach setup aufgerufen und danach unendlich oft wiederholt
 void loop() {
   // put your main code here, to run repeatedly:
   schalterZustand = digitalRead(2);
