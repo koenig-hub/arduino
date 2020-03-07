@@ -4,7 +4,7 @@
   Raumschiff Steuerzentrale
 
   erstellt am 11. August 2019
-  von E. König
+  von koenig-hub
 
 */
 
