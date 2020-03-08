@@ -10,7 +10,7 @@ Der Sourcecode befindet sich hier: [Raumschiffsteuerzentrale](projekt02_raumschi
 ## Projekt 3 Love-o-meter :heart:
 Der Sourcecode befindet sich hier: [Love-o-meter](projekt03_love-o-meter/projekt03_love-o-meter.ino)
 
-Für die Temperaturmessung wird ein [Temparatursensor (TMP35)](https://www.arduino.cc/en/uploads/Main/TemperatureSensor.pdf) verwendet.
+Für die Temperaturmessung wird ein [Temperatursensor (TMP35)](https://www.arduino.cc/en/uploads/Main/TemperatureSensor.pdf) verwendet.
 
 * [Bild 1 des Arduino Love-o-meter](projekt03_love-o-meter/love-o-meter-1.png)
 * [Bild 2 des Arduino Love-o-meter](projekt03_love-o-meter/love-o-meter-2.png)
